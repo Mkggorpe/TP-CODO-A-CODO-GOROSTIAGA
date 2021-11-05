@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(220,190,50,0.5);
+
+      }
+
+p.nombre-empresa-logo {/*Logo panadería en Header */
+      width: 150px;
+      height: 150px;
+      font-weight: bolder;
+      text-align: center;
+      margin: 20px ;
+      padding: 35px;
+      background-color: springgreen;
+      opacity: 0.7;
+      border-radius: 50%;
+      font-size: 25px;
+}
+
+header{/*barra de Navegación*/
+      background-image: url("C:/Users/mikeg/Desktop/Root Folder/TP/Lepain2.jpg");
+      background-size: cover;
+      padding: 20px;
+
+}
+p.barra-junta{/*barra de Navegación*/
+      font-size: 25px;
+      color: rgb(95, 172, 131) ;
+      text-align: center;
+      padding: 25px;
+      background-color: yellow;
+      background-attachment:inherit;
+      border: 2px solid green;
+      }
+a:hover{background-color: red;}
+
+#pruebabordeimagen{
+      width: 350px;
+      border: 10px solid black;
+      border-radius: 30%;
+
+}
+iframe.mapita{
+        position: absolute;
+        border-width: inherit;
+        border: 1px double black ;
+        margin: 25px;
+
+
+  }
+div.container{
+  border-width: 250;
+  margin: 20px;
+  color: red;
+}
