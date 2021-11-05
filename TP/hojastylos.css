@@ -24,14 +24,17 @@ header{/*barra de Navegación*/
 }
 p.barra-junta{/*barra de Navegación*/
       font-size: 25px;
+      font-size: 30px;
       color: rgb(95, 172, 131) ;
       text-align: center;
       padding: 25px;
       background-color: yellow;
+      background-color: rgb(172, 135, 95);
       background-attachment:inherit;
       border: 2px solid green;
       }
-a:hover{background-color: red;}
+a:hover{background-color: red;
+        font-size: 40px;}
 
 #pruebabordeimagen{
       width: 350px;
@@ -52,3 +55,9 @@ div.container{
   margin: 20px;
   color: red;
 }
+
+div.seccion_de_panaderia{
+  font-style: solid;
+  text-align: center;
+}
+
